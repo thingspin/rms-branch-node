@@ -2,7 +2,9 @@
     "name": "branch-node",
     "description": "branch-node",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-mssql": "0.0.7"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow-branch-node.json",
